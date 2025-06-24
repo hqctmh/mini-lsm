@@ -1,0 +1,11 @@
+[package]
+name = "mini-lsm-raft"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+mini-lsm = { path = "../mini-lsm" }
+anyhow = "1"
+crossbeam-channel = "0.5"
+rand = "0.8"

@@ -5,6 +5,7 @@
 [![CI (main)](https://github.com/skyzh/mini-lsm/actions/workflows/main.yml/badge.svg)](https://github.com/skyzh/mini-lsm/actions/workflows/main.yml)
 
 Build a simple key-value storage engine in a week! And extend your LSM engine on the second + third week.
+This repository also contains `mini-lsm-raft`, a toy Raft-based distributed key-value engine built on top of MiniLSM.
 
 ## [Book](https://skyzh.github.io/mini-lsm)
 
@@ -50,6 +51,7 @@ To do this, use `cargo x sync`.
 ## Code Structure
 
 * mini-lsm: the final solution code for <= week 2
+* mini-lsm-raft: a simple Raft-based distributed KV built on MiniLSM
 * mini-lsm-mvcc: the final solution code for week 3 MVCC
 * mini-lsm-starter: the starter code
 * mini-lsm-book: the course
